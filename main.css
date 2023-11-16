@@ -1,0 +1,459 @@
+/* comment */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: abadi, sans-serif;
+    font-size: 18px;
+    /* background-color: beige; */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    font-size: 1em;
+}
+
+
+
+
+/* END OF RESET */
+
+
+
+header{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 14px 14px 14px;
+}
+
+footer{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 14px;
+}
+
+h3{
+    font-weight: normal;
+    font-size: 0.75em;
+    color: rgb(185, 184, 184);
+}
+
+.bolded{
+    font-weight: 600;
+}
+
+.plant-button{
+    width: 190px;
+    margin: 10px auto;
+    background-color: rgb(183, 116, 103);
+    padding: 12px 0px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.back-plant-button{
+    width: 175px;
+    margin: 30px 30px 30px 0px;
+    background-color: rgb(183, 116, 103);
+    padding: 12px 0px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+
+.hero {
+    background-image: url(images/hero2.png);
+    background-color: rgb(176, 193, 159);
+    background-size: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+}
+
+.buffer{
+    padding: 110px 0px;
+}
+
+.buffer-2{
+    padding-bottom: 20px;
+}
+
+
+
+/* .hero2 {
+    background-image: url(images/newsletter.jpg);
+    background-color: rgb(176, 193, 159);
+    background-size: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+} */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.card {
+    max-width: 500px;
+    margin: 40px 40px 30px 40px;
+    padding: 20px;
+    text-align: center;
+    border: 3px solid rgb(176, 193, 159);
+    border-radius: 12px;
+    
+}
+
+.card-image{
+    border-radius: 6px;
+}
+
+
+.home-h1 {
+    font-family: "abadi", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 4em;
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.home-h2{
+    font-family: "abadi", sans-serif;
+    font-weight: 400;
+    font-style:italic;
+    font-size: 1.5em;
+    color: lightgrey;
+    position: absolute;
+    text-align: center;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* main h2 {
+    font-family: "abadi", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2em;
+    color:black;
+    text-align: center;
+}*/
+
+nav {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    padding: 14px;
+    align-items: center; 
+}
+
+
+.footer-nav{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.nav-icon{
+    width: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 14px 14px 14px;
+    align-items: center;  
+}
+
+
+a:link{
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+
+a:hover{
+    color: rgb(176, 193, 159);
+    text-decoration: none;
+}
+
+a:active {
+    color: rgb(176, 193, 159);
+    text-decoration: none;
+  }
+
+
+.wrapper{
+    max-width: 1440px;
+    margin: 20px auto;
+    background-color: white;
+}
+
+.logo{
+    font-size: 2em;
+    font-weight: 900;
+    text-transform: uppercase;
+} 
+
+.details {
+    height: 800px;
+    width: 1000px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.details img {
+    width: 100%;
+    border-radius: 5%;
+}
+
+#details-icon{
+    width: 20px;
+}
+
+#water-icon{
+    width: 18px;
+    height: 24px;
+}
+
+#temp-icon{
+    width: 18px;
+    height: 24px;
+}
+
+#size-icon{
+    width:18px;
+    height:22px;
+}
+
+.details-text {
+    width: 400px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+}
+
+
+.body-text{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.details-image {
+    width: 500px;
+    height: 700px;
+    margin-left: 20px;
+}
+
+.details h2 {
+    font-size: 2em;
+    font-weight:600;
+    color: rgb(134, 73, 74);
+}
+
+.scientific-name{
+    font-style: italic;
+    text-transform: lowercase;
+    font-size: 1.25em;
+    color: rgb(183, 116, 103);
+}
+
+
+.plants-h1 {
+    font-size: 2.5em;
+    color: rgb(183, 116, 103);
+    text-align: center;
+    font-weight: 600;
+}
+
+
+.newsletter-h1{
+    font-size: 2.5em;
+    font-weight: 600;
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+    color: rgb(183, 116, 103);
+}
+
+.newsletter-image{
+    background-image: url(images/newsletter.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 30% 50%;
+    width: 1440px;
+    height: 450px;
+    max-width: 100%;
+    margin: 0px auto 20px auto;
+}
+
+
+.form{
+    width: 306px;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.box{
+    border: 2px solid rgb(183, 116, 103);
+    width: 250px;
+    height: 35px;
+    margin-left:8px;
+    margin-bottom:8px;
+    border-radius: 10px;
+}
+
+::placeholder {
+    font-style: italic;
+    font-size: 1.25em;
+    color: rgb(205, 143, 130);
+  }
+
+input, textarea {
+    font-family: abadi, sans-serif;
+    padding-left: 10px;
+  }
+
+.submit{
+    height: 800px;
+    width: 1000px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.submit-button{
+    width: 100px;
+    margin: 0px auto 20px auto;
+    background-color: rgb(176, 193, 159);
+    padding: 10px 0px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.submit-h1{
+    font-weight: 600;
+    font-size: 4em;
+    color: rgb(134, 73, 74);
+    max-width: 400px;
+    margin-right: 10px;
+}
+
+.submit-h2{
+    font-size: 2em;
+    font-weight: 200;
+    color: rgb(183, 116, 103);
+    width: 400px;
+    padding-bottom: 100px;
+}
+
+.submit-h3{
+    font-size: 1.5em;
+    font-weight: 200;
+    color: black;
+    width: 400px;
+    padding-bottom: 200px;
+}
+
+.submit-image{
+    width: 500px;
+    height: 700px;
+    margin-left: 20px;
+}
+
+.submit img{
+    width: 100%;
+    border-radius: 5%;
+}
+
+
+ 
+/* media queries*/
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: white;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    header{
+        display: block;
+        height: 100px;
+        text-align: center;
+    }
+    nav {
+        margin: 0px auto;
+    }
+}
+
+
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 1070px) {
+    .home-h1 {
+      font-size: 60px;
+    }
+    .buffer{
+        padding: 110px 0px;
+    }
+    .home-h2{
+        font-size: 1em;
+        top:25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+  }
+
+
+
+/* 
+Abadi MT Pro Regular
+font-family: "abadi", sans-serif;
+font-weight: 400;
+font-style: normal;
+Abadi MT Pro Italic
+font-family: "abadi", sans-serif;
+font-weight: 400;
+font-style: italic;
+Abadi MT Pro Bold
+font-family: "abadi", sans-serif;
+font-weight: 700;
+font-style: normal;
+Abadi MT Pro Bold Italic
+font-family: "abadi", sans-serif;
+font-weight: 700;
+font-style: italic;
+Abadi MT Pro Condensed
+font-family: "abadi-condensed", sans-serif;
+font-weight: 400;
+font-style: normal;
+Abadi MT Pro Cond Bold
+font-family: "abadi-condensed", sans-serif;
+font-weight: 700;
+font-style: normal;
+*/
